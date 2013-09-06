@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="http://isotope.metafizzy.co/css/style.css"/>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="jquery.isotope.min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			var $container = $('#container');
+      
+		      $container.isotope({
+		      	
+		        itemSelector: '.item'
+		      });
+		});
+
+		function me (e) {
+			
+		  var selector = ".item2";
+		  $('#container').isotope({ filter: selector });
+
+		  /*$(this).parents('ul').find('a').removeClass('selected');
+		  $(this).addClass('selected');*/
+		};
+	</script>
+
+</head>
+<body>
+	<ul>
+		<li><button onclick="me(this)" id="btn1">NINININI</button></li>
+		<li><button onclick="$('#container').isotope({ filter: '*' });" id="btn2">All</button></li>
+	</ul>
+	<div id="container">
+		<div class="element item item1" style="background-color:blue;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:green;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item2" style="background-color:red;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:blue;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:green;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item2" style="background-color:red;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:blue;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:green;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item2" style="background-color:red;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:blue;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:green;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item2" style="background-color:red;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:blue;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:green;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item2" style="background-color:red;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:blue;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:green;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item2" style="background-color:red;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:blue;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:green;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item2" style="background-color:red;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:blue;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:green;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item2" style="background-color:red;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:blue;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:green;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item2" style="background-color:red;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:blue;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:green;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item2" style="background-color:red;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:blue;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:green;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item2" style="background-color:red;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:blue;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item1" style="background-color:green;width:100px;height:100px;padding:2px;"></div>
+		<div class="element item item2" style="background-color:red;width:100px;height:100px;padding:2px;"></div>
+	</div>
+</body>
+</html>
